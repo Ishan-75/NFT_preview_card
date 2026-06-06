@@ -1,0 +1,301 @@
+:root {
+
+<<<<<<< HEAD
+    --Blue-500: hsl(215, 51%, 70%);
+    --Cyan-400: hsl(178, 100%, 50%);
+    --Blue-950: hsl(217, 54%, 11%);
+    --Blue-900-card-BG: hsl(216, 50%, 16%);
+    --Blue-800: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+=======
+  --Blue-500: hsl(215, 51%, 70%);
+  --Cyan-400: hsl(178, 100%, 50%);
+  --Blue-950: hsl(217, 54%, 11%);
+  --Blue-900-card-BG: hsl(216, 50%, 16%);
+  --Blue-800: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+>>>>>>> 02c0a2d (project completed)
+}
+
+/* outfit-100 - latin */
+@font-face {
+<<<<<<< HEAD
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/outfit-v15-latin-100.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/outfit-v15-latin-200.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/outfit-v15-latin-300.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/outfit-v15-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/outfit-v15-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/outfit-v15-latin-600.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/outfit-v15-latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/outfit-v15-latin-800.woff2') format('woff2'); 
+}
+/* outfit-900 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/outfit-v15-latin-900.woff2') format('woff2'); 
+}
+
+html{
+    font-family: 'outfit';
+}
+body{
+    background: var(--Blue-950);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descript_container>h3{
+    color: white;
+
+}
+.descript_container>h6{
+    color:var(--Blue-500);
+
+}
+.img_container{
+    width: 60%;
+    display: block;
+}
+.container{
+    background: var(--Blue-900-card-BG);
+    width: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.descript_container{
+=======
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./fonts/outfit-v15-latin-100.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./fonts/outfit-v15-latin-200.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/outfit-v15-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/outfit-v15-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/outfit-v15-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/outfit-v15-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/outfit-v15-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./fonts/outfit-v15-latin-800.woff2') format('woff2');
+}
+
+/* outfit-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/outfit-v15-latin-900.woff2') format('woff2');
+}
+
+html {
+  font-family: 'outfit';
+}
+
+body {
+  background: var(--Blue-950);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descript_container>h3 {
+  color: white;
+  margin-bottom: 7px;
+
+}
+
+.descript_container>h6 {
+  color: var(--Blue-500);
+  margin-top: 0;
+  font-weight: 100;
+
+}
+
+.image_container {
+
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 218px;
+  display: block;
+  border-radius: 5px;
+}
+
+.container {
+  background: var(--Blue-900-card-BG);
+  width: 210px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.descript_container {
+>>>>>>> 02c0a2d (project completed)
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+<<<<<<< HEAD
+.info_container{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+=======
+
+.info_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: -20px;
+}
+
+.info_container>p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ethereum {
+  color: var(--Cyan-400);
+  font-weight: 200;
+}
+
+.days_left {
+  color: var(--Blue-500);
+  font-weight: 200;
+}
+
+.avatar_container {
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid var(--Blue-800);
+  align-items: center;
+  color: var(--Blue-500);
+}
+
+.avatar_container>h5 {
+  font-weight: 300;
+}
+.avatar_container>h5>span{
+  color: var(--White);
+}
+
+.avatar_container>img {
+  width: 13%;
+  height: 13%;
+  border: 2px solid var(--Blue-800);
+  border-radius: 15px;
+>>>>>>> 02c0a2d (project completed)
+}
